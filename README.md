@@ -1,29 +1,42 @@
-## 1. Quiz Application
+# Quiz App
 
-This is a console-based quiz program developed using Python. It asks multiple-choice questions and calculates the final score based on user input.
+## Overview
 
-### Features
+Quiz App is a web-based quiz application built using Flask and SQLite. Users can create an account, log in, take a Python quiz, view their score, and check the leaderboard.
 
-* Multiple-choice questions (A, B, C, D)
-* Input validation
-* Score calculation
-* Menu-based interaction
+## Features
 
-### Concepts Used
+* User Registration (Sign Up)
+* User Login
+* Python Quiz with 10 Questions
+* Automatic Score Calculation
+* Leaderboard Ranking System
+* About Page
+* SQLite Database Integration
+* Session Management
 
-* Conditional statements
-* Loops
-* Functions
+## Technologies Used
 
----
-## How to Run
+* Python
+* Flask
+* SQLite
+* HTML
+* CSS
 
-Run the programs using:
+## Project Structure
 
-```bash id="3e3a4k"
-python quiz_app.py
-```
 
-## Author
+quiz-app/
+│
+├── app.py
+├── quiz_app.db
+│
+├── templates/
+│   ├── home.html
+│   ├── signup.html
+│   ├── login.html
+│   ├── quiz.html
+│   ├── result.html
+│   ├── leaderboard.html
+│   └── about.html
 
-Kavya Sri
