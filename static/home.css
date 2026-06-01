@@ -1,0 +1,40 @@
+body
+{
+    background-image:url("/static/images/colors1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1
+{
+    text-align: center;
+    color:rgb(138, 105, 155);
+}
+h2
+{
+    text-align: center;
+    color:#030e22c4;
+}
+h3{
+    text-align: center;
+    color: rgb(2, 23, 23);
+}
+button
+{
+    padding:15px 35px;
+    font-size:22px;
+    border:none;
+    border-radius:10px;
+    background-color: #41037b;
+    color:whitesmoke;
+    cursor:pointer;
+    transition:0.3s;
+}
+button:hover
+{
+    background-color: #5f0bb;
+    transform:scale(1.05);
+}
